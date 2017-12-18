@@ -1,8 +1,6 @@
-# Code examples
 
-One Paragraph of project description goes here
-
-## Contents
+# Contents
+## Code examples inside databases folder
 
 This documentation serves as a walk-through the code/utilities/workflow and in general tips included in each directory
 
@@ -57,6 +55,7 @@ ORDER BY
 * In your Python distribution, install [SQLalchemy]( http://docs.sqlalchemy.org/en/latest/intro.html) package:
 ```
 pip install sqlalchemy 
+pip install psycopg2
 ```
 * See an example on how to query biomatrix through the back-end in python file query_biomatrix_database.py. Examples show how to:
 * Query to retrieve radiology reports
